@@ -2,14 +2,11 @@
 
 let currentHour = 2;
 
-if (currentHour >= 6 && currentHour < 12) {
+if (currentHour >= 6 && currentHour < 12)
     console.log('Good morning Jo!');
-}
-else if (currentHour >= 12 && currentHour < 18) {
+else if (currentHour >= 12 && currentHour < 18)
     console.log('Good afternoon Jo!');
-}
-else if (currentHour >= 18 && currentHour <= 24 ) {
+else if (currentHour >= 18 && currentHour <= 24 )
     console.log('Good evening Jo!');
-}
 else
     console.log('Good morning Jo, get some sleep!');
